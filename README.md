@@ -1,10 +1,10 @@
-# 🐾 Quadruped Robot Leg Design
+# Quadruped Robot Leg Design
 
 > Designing, analyzing, and validating a servo-driven robotic leg through a complete engineering workflow.
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project focuses on building a **single leg of a quadruped robot** by combining theory, calculations, and real-world validation.
 
@@ -12,7 +12,7 @@ The goal is not just to build a mechanism, but to understand how **motor capabil
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Understand torque and its real-world limitations  
 - Convert motor specifications into usable engineering values  
@@ -22,7 +22,7 @@ The goal is not just to build a mechanism, but to understand how **motor capabil
 
 ---
 
-## ⚙️ Motor Details
+## Motor Details
 
 **Motor Used:** TowerPro MG996R Servo Motor  
 
@@ -31,18 +31,18 @@ The goal is not just to build a mechanism, but to understand how **motor capabil
 | 6V     | 13 kg·cm |
 | 4.8V   | 9.4 kg·cm |
 
-### 🔍 Role in the Robot
+### Role in the Robot
 
 This motor acts as the **joint actuator**:
 - Lifts and supports the robot’s weight  
 - Controls leg movement  
 - Determines the strength and stability of the leg  
 
-👉 Motor selection directly impacts whether the robot can **stand, walk, or fail**
+Motor selection directly impacts whether the robot can **stand, walk, or fail**
 
 ---
 
-## 🧠 Key Insight (Day 1)
+## Key Insight (Day 1)
 
 From torque calculations:
 
@@ -52,16 +52,16 @@ From torque calculations:
 | 5 cm      | 2.6 kg       |
 | 10 cm     | 1.3 kg       |
 
-### 🔥 Important Takeaway
+### Important Takeaway
 
 - Increasing leg length reduces lifting capacity  
 - Torque is constant, but **force decreases with distance**  
 
-👉 This is the **core constraint in quadruped leg design**
+This is the **core constraint in quadruped leg design**
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 
 /calculations    → torque calculations and analysis
